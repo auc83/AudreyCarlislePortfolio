@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -77,7 +76,7 @@
     .site-header {
       position: sticky;
       top: 0;
-      z-index: 5;
+      z-index: 10;
       border-bottom: 1px solid var(--border);
       background: rgb(15 15 19 / 96%);
       backdrop-filter: blur(12px);
