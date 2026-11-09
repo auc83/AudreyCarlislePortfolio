@@ -76,7 +76,7 @@
     .site-header {
       position: sticky;
       top: 0;
-      z-index: 10;
+      z-index: 5;
       border-bottom: 1px solid var(--border);
       background: rgb(15 15 19 / 96%);
       backdrop-filter: blur(12px);
