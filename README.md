@@ -1,1 +1,455 @@
-# AudreyCarlislePortfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audrey Carlisle | Game Designer Portfolio</title>
+  <style>
+    /* Global Styles & Reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #e0e0e0;
+      background-color: #0f0f13;
+      scroll-behavior: smooth;
+      scroll-padding-top: 8rem;
+    }
+
+    /* Typography */
+    h1, h2, h3 {
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 2.2rem;
+      text-align: center;
+      margin-bottom: 2rem;
+      position: relative;
+    }
+
+    h2::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 4px;
+      background-color: #725ac1;
+      margin: 0.5rem auto 0;
+      border-radius: 2px;
+    }
+
+    p {
+      color: #a0a0b0;
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: #8d72e1;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #8d72e1;
+    }
+
+    /* Navigation Bar */
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgba(15, 15, 19, 0.95);
+      backdrop-filter: blur(5px);
+      z-index: 1000;
+      border-bottom: 1px solid #2a2a35;
+    }
+
+    nav {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem 2rem;
+      padding: 1rem 2rem;
+    }
+
+    .nav-logo {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #ffffff;
+      letter-spacing: 1px;
+      white-space: nowrap;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      list-style: none;
+      gap: 0.5rem 1.5rem;
+    }
+
+    .nav-links a {
+      color: #e0e0e0;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    .nav-links a:hover {
+      color: #8d72e1;
+    }
+
+    /* Page Layout / Sections Structure */
+    section {
+      padding: 5rem 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      scroll-margin-top: 8rem;
+    }
+
+    .container {
+      width: 100%;
+    }
+
+    /* Hero Section */
+    #hero {
+      height: 100vh;
+      max-width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: linear-gradient(rgba(15, 15, 19, 0.7), rgba(15, 15, 19, 0.9)), 
+                  url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      padding: 0 1rem;
+    }
+
+    .hero-content h1 {
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .hero-content p {
+      font-size: 1.4rem;
+      color: #8d72e1;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #725ac1;
+      color: #ffffff;
+      padding: 0.8rem 1.8rem;
+      border-radius: 4px;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #5d44a8;
+      color: #ffffff;
+    }
+
+    /* Blocks Grid Layout */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+    }
+
+    /* Cards & Container Blocks */
+    .block-card {
+      background-color: #1a1a24;
+      padding: 2rem;
+      border-radius: 8px;
+      border: 1px solid #2a2a35;
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .block-card:hover {
+      transform: translateY(-5px);
+      border-color: #725ac1;
+    }
+
+    /* Portfolio Items */
+    .project-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .project-card h3 {
+      color: #ffffff;
+      font-size: 1.3rem;
+    }
+
+    .project-tag {
+      display: inline-block;
+      background-color: #242433;
+      color: #8d72e1;
+      font-size: 0.8rem;
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+      width: fit-content;
+    }
+
+    /* Contact Form */
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: #e0e0e0;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 0.8rem;
+      background-color: #14141c;
+      border: 1px solid #2a2a35;
+      border-radius: 4px;
+      color: #ffffff;
+      font-family: inherit;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: #725ac1;
+    }
+
+    button[type="submit"] {
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #09090c;
+      text-align: center;
+      padding: 2rem;
+      border-top: 1px solid #2a2a35;
+      font-size: 0.9rem;
+    }
+
+    /* Keep the complete navigation visible on smaller screens. */
+    @media (max-width: 760px) {
+      nav {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0.75rem 1rem;
+        gap: 0.5rem;
+      }
+
+      .nav-links {
+        justify-content: center;
+        column-gap: 1rem;
+      }
+
+      body {
+        scroll-padding-top: 9rem;
+      }
+
+      section {
+        scroll-margin-top: 9rem;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .nav-links {
+        column-gap: 0.75rem;
+        row-gap: 0.25rem;
+        font-size: 0.9rem;
+      }
+
+      .nav-logo {
+        font-size: 1.2rem;
+      }
+
+      .hero-content h1 {
+        font-size: 2.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <div class="nav-logo">Audrey Carlisle</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About &amp; Field</a></li>
+        <li><a href="#hobbies">Interests</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section (Section a) -->
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Audrey Carlisle</h1>
+      <p>Game Designer &amp; Interactive Worldbuilder</p>
+      <a href="#portfolio" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- Main Content Structure -->
+  <main>
+    <!-- Field of Study Section (Section b) -->
+    <section id="about">
+      <h2>Field of Study</h2>
+      <div class="grid-2">
+        <div class="block-card">
+          <h3>B.S. in Digital Narrative &amp; Game Design</h3>
+          <p>University of Pittsburgh</p>
+          <p>Focusing on environmental storytelling, mechanics balance, systems design, and player psychology. Specialized in creating immersive level layouts and modular game logic using Unreal Engine.</p>
+        </div>
+        <div class="block-card">
+          <h3>Core Competencies</h3>
+          <p>Systems Design &amp; Rules Balancing • Level Design &amp; Scripting • Technical Documentation • Rapid Prototyping • Player Experience (UX) Research</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hobbies & Interests Section (Section c) -->
+    <section id="hobbies">
+      <h2>Relevant Hobbies &amp; Interests</h2>
+      <div class="grid-3">
+        <div class="block-card">
+          <h3>Tabletop RPG Campaign Director</h3>
+          <p>Designing custom mechanics, modules, and narrative arcs for tabletop sessions. Enhances real-time pacing, emergent storytelling, and systems balance.</p>
+        </div>
+        <div class="block-card">
+          <h3>Retro Arcade Hardware Restoration</h3>
+          <p>Rebuilding vintage cabinet controls and boards. Deepens appreciation for arcade design history and tactile physical-to-digital input responsiveness.</p>
+        </div>
+        <div class="block-card">
+          <h3>3D Environment Sculpting</h3>
+          <p>Creating low-poly assets and modular environment sets during game jams to rapidly bring world ideas from sketch to prototype.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section (Section d) -->
+    <section id="portfolio">
+      <h2>Project Portfolio</h2>
+      <div class="grid-3">
+        
+        <!-- Proposal -->
+        <div class="block-card project-card">
+          <div>
+            <span class="project-tag">Game Design Document</span>
+            <h3>Project Proposal</h3>
+            <p>Comprehensive design document proposing <em>Echoes of Aether</em>, a system-driven cooperative puzzle game.</p>
+          </div>
+          <a href="#" target="_blank">View Proposal (PDF) &rarr;</a>
+        </div>
+
+        <!-- Safety Document -->
+        <div class="block-card project-card">
+          <div>
+            <span class="project-tag">VR Documentation</span>
+            <h3>VR Safety &amp; Play Guidelines</h3>
+            <p>Standard operating protocols and ergonomic risk mitigation strategies for room-scale VR game testing.</p>
+          </div>
+          <a href="#" target="_blank">View Safety Doc (PDF) &rarr;</a>
+        </div>
+
+        <!-- Infographic -->
+        <div class="block-card project-card">
+          <div>
+            <span class="project-tag">Data Visualization</span>
+            <h3>Mechanics Breakdown Infographic</h3>
+            <p>Visual map analyzing player retention loops, difficulty scaling, and risk/reward dynamics in roguelikes.</p>
+          </div>
+          <a href="#" target="_blank">View Infographic (PNG) &rarr;</a>
+        </div>
+
+        <!-- Project -->
+        <div class="block-card project-card">
+          <div>
+            <span class="project-tag">Playable Demo</span>
+            <h3>Main Project: Celestial Run</h3>
+            <p>A playable 3D platformer prototype demonstrating momentum-based movement and dynamic lighting traps.</p>
+          </div>
+          <a href="#" target="_blank">Play Build / Watch Demo &rarr;</a>
+        </div>
+
+        <!-- Usability Study -->
+        <div class="block-card project-card">
+          <div>
+            <span class="project-tag">UX Research</span>
+            <h3>Usability Study &amp; Report</h3>
+            <p>Playtesting analytics, heatmap observations, and UX improvement recommendations based on 15 user sessions.</p>
+          </div>
+          <a href="#" target="_blank">View Usability Study (PDF) &rarr;</a>
+        </div>
+
+        <!-- Oral Presentation -->
+        <div class="block-card project-card">
+          <div>
+            <span class="project-tag">Presentation</span>
+            <h3>Project Pitch &amp; Oral Presentation</h3>
+            <p>Slide deck and video recording of the final project pitch delivered to industry faculty reviewers.</p>
+          </div>
+          <a href="#" target="_blank">Watch Presentation (Video) &rarr;</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact Form Section (Section e) -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="block-card" style="max-width: 600px; margin: 0 auto;">
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message or collaboration request..." required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Audrey Carlisle | Game Designer Portfolio | University of Pittsburgh</p>
+  </footer>
+
+</body>
+</html>
