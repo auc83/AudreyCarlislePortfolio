@@ -453,26 +453,27 @@
       </div>
     </section>
 
-    <section id="contact" aria-labelledby="contact-title">
-      <h2 class="section-title" id="contact-title">Contact Me</h2>
-      <div class="block-card contact-card">
-        <form action="#" method="POST">
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Your Name" autocomplete="name" required>
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Your Email Address" autocomplete="email" required>
-          </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" placeholder="Your message or collaboration request..." required></textarea>
-          </div>
-          <button type="submit" class="button">Send Message</button>
-        </form>
+   <section id="contact" aria-labelledby="contact-title">
+  <h2 class="section-title" id="contact-title">Contact Me</h2>
+  <div class="block-card contact-card">
+    <!-- Replace 'YOUR_FORM_ID' with your actual ID from Formspree -->
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" autocomplete="name" required>
       </div>
-    </section>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="_replyto" placeholder="Your Email Address" autocomplete="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your message or collaboration request..." required></textarea>
+      </div>
+      <button type="submit" class="button">Send Message</button>
+    </form>
+  </div>
+</section>
   </main>
 
   <footer>
