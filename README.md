@@ -456,8 +456,7 @@
    <section id="contact" aria-labelledby="contact-title">
   <h2 class="section-title" id="contact-title">Contact Me</h2>
   <div class="block-card contact-card">
-    <!-- Replace 'YOUR_FORM_ID' with your actual ID from Formspree -->
-    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <form action="https://formspree.io/f/mwlokqod" method="POST">
       <div class="form-group">
         <label for="name">Name</label>
         <input type="text" id="name" name="name" placeholder="Your Name" autocomplete="name" required>
