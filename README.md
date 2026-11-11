@@ -448,30 +448,12 @@
       <div class="grid-3">
         <article class="block-card project-card">
           <div>
-            <span class="project-tag">Game Design Document</span>
-            <h3>Project Proposal</h3>
-            <p>Comprehensive design document proposing <em>Echoes of Aether</em>, a system-driven cooperative puzzle game.</p>
+            <span class="project-tag">Project Tag</span>
+            <h3>Project name</h3>
+            <p>Description text </p>
           </div>
-          <a class="project-link" href="#" target="_blank" rel="noopener noreferrer">View Proposal (PDF) &rarr;</a>
+          <a class="project-link" href="#" target="_blank" rel="noopener noreferrer">Link &rarr;</a>
         </article>
-
-        <article class="block-card project-card">
-          <div>
-            <span class="project-tag">VR Documentation</span>
-            <h3>VR Safety &amp; Play Guidelines</h3>
-            <p>Standard operating protocols and ergonomic risk mitigation strategies for room-scale VR game testing.</p>
-          </div>
-          <a class="project-link" href="#" target="_blank" rel="noopener noreferrer">View Safety Doc (PDF) &rarr;</a>
-        </article>
-
-        <article class="block-card project-card">
-          <div>
-            <span class="project-tag">Data Visualization</span>
-            <h3>Mechanics Breakdown Infographic</h3>
-            <p>Visual map analyzing player retention loops, difficulty scaling, and risk/reward dynamics in roguelikes.</p>
-          </div>
-          <a class="project-link" href="#" target="_blank" rel="noopener noreferrer">View Infographic (PNG) &rarr;</a>
-        </article>    
       </div>
     </section>
 
