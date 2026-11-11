@@ -415,7 +415,7 @@
       <div class="grid-2">
         <article class="block-card">
           <h3>B.S. in Digital Narrative &amp; Interactive Design</h3>
-          <p>University of Pittsburgh</p>
+          <p>University of Pittsburgh, Freshman</p>
           <p>enter text.</p>
         </article>
         <article class="block-card">
@@ -433,11 +433,7 @@
           <p>Enter Text</p>
         </article>
         <article class="block-card">
-          <h3>Enter Text</h3>
-          <p>Enter Text</p>
-        </article>
-        <article class="block-card">
-          <h3>Enter Text</h3>
+          <h3>"Indie Game Dev Club"</h3>
           <p>Enter Text</p>
         </article>
       </div>
