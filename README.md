@@ -429,7 +429,7 @@
       <h2 class="section-title" id="hobbies-title">Relevant Hobbies &amp; Interests</h2>
       <div class="grid-3">
         <article class="block-card">
-          <h3>Tabletop RPG Campaign Director</h3>
+          <h3>Tabletop RPG Player and Game Facilitator</h3>
           <p>Enter Text</p>
         </article>
         <article class="block-card">
