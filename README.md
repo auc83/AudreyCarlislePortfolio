@@ -414,13 +414,13 @@
       <h2 class="section-title" id="about-title">Field of Study</h2>
       <div class="grid-2">
         <article class="block-card">
-          <h3>B.S. in Digital Narrative &amp; Game Design</h3>
+          <h3>B.S. in Digital Narrative &amp; Interactive Design</h3>
           <p>University of Pittsburgh</p>
-          <p>Focusing on environmental storytelling, mechanics balance, systems design, and player psychology. Specialized in creating immersive level layouts and modular game logic using Unreal Engine.</p>
+          <p>enter text.</p>
         </article>
         <article class="block-card">
-          <h3>Core Competencies</h3>
-          <p>Systems Design &amp; Rules Balancing • Level Design &amp; Scripting • Technical Documentation • Rapid Prototyping • Player Experience (UX) Research</p>
+          <h3>Relevant Skills</h3>
+          <p>Enter Text</p>
         </article>
       </div>
     </section>
@@ -430,15 +430,15 @@
       <div class="grid-3">
         <article class="block-card">
           <h3>Tabletop RPG Campaign Director</h3>
-          <p>Designing custom mechanics, modules, and narrative arcs for tabletop sessions. Enhances real-time pacing, emergent storytelling, and systems balance.</p>
+          <p>Enter Text</p>
         </article>
         <article class="block-card">
-          <h3>Retro Arcade Hardware Restoration</h3>
-          <p>Rebuilding vintage cabinet controls and boards. Deepens appreciation for arcade design history and tactile physical-to-digital input responsiveness.</p>
+          <h3>Enter Text</h3>
+          <p>Enter Text</p>
         </article>
         <article class="block-card">
-          <h3>3D Environment Sculpting</h3>
-          <p>Creating low-poly assets and modular environment sets during game jams to rapidly bring world ideas from sketch to prototype.</p>
+          <h3>Enter Text</h3>
+          <p>Enter Text</p>
         </article>
       </div>
     </section>
@@ -471,34 +471,7 @@
             <p>Visual map analyzing player retention loops, difficulty scaling, and risk/reward dynamics in roguelikes.</p>
           </div>
           <a class="project-link" href="#" target="_blank" rel="noopener noreferrer">View Infographic (PNG) &rarr;</a>
-        </article>
-
-        <article class="block-card project-card">
-          <div>
-            <span class="project-tag">Playable Demo</span>
-            <h3>Main Project: Celestial Run</h3>
-            <p>A playable 3D platformer prototype demonstrating momentum-based movement and dynamic lighting traps.</p>
-          </div>
-          <a class="project-link" href="#" target="_blank" rel="noopener noreferrer">Play Build / Watch Demo &rarr;</a>
-        </article>
-
-        <article class="block-card project-card">
-          <div>
-            <span class="project-tag">UX Research</span>
-            <h3>Usability Study &amp; Report</h3>
-            <p>Playtesting analytics, heatmap observations, and UX improvement recommendations based on 15 user sessions.</p>
-          </div>
-          <a class="project-link" href="#" target="_blank" rel="noopener noreferrer">View Usability Study (PDF) &rarr;</a>
-        </article>
-
-        <article class="block-card project-card">
-          <div>
-            <span class="project-tag">Presentation</span>
-            <h3>Project Pitch &amp; Oral Presentation</h3>
-            <p>Slide deck and video recording of the final project pitch delivered to industry faculty reviewers.</p>
-          </div>
-          <a class="project-link" href="#" target="_blank" rel="noopener noreferrer">Watch Presentation (Video) &rarr;</a>
-        </article>
+        </article>    
       </div>
     </section>
 
@@ -525,7 +498,7 @@
   </main>
 
   <footer>
-    <p>&copy; 2026 Audrey Carlisle | Game Designer Portfolio | University of Pittsburgh</p>
+    <p>&copy; 2026 Audrey Carlisle | Game Design Portfolio | University of Pittsburgh</p>
   </footer>
 </body>
 </html>
