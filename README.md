@@ -464,12 +464,7 @@
           </div>
           <a class="project-link" href="https://docs.google.com/document/d/1HZ3C0tab9x26KsafDoMkFS1slAhxP22USk7Xtla_avk/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Click to view &rarr;</a>
         </article>
-      </div>
-    </section>
      
-     <section id="portfolio" aria-labelledby="portfolio-title">
-      <h2 class="section-title" id="portfolio-title">Project Portfolio</h2>
-      <div class="grid-3">
         <article class="block-card project-card">
           <div>
             <span class="project-tag">Project Tag</span>
@@ -478,12 +473,7 @@
           </div>
           <a class="project-link" href="file:///C:/Users/audre/Downloads/Safety%20Document-2.pdf" rel="noopener noreferrer">Click to view &rarr;</a>
         </article>
-      </div>
-    </section>
-
-     <section id="portfolio" aria-labelledby="portfolio-title">
-      <h2 class="section-title" id="portfolio-title">Project Portfolio</h2>
-      <div class="grid-3">
+     
         <article class="block-card project-card">
           <div>
             <span class="project-tag">Project Tag</span>
@@ -492,12 +482,7 @@
           </div>
           <a class="project-link" href="file:///C:/Users/audre/Downloads/info%20Document-3.pdf" rel="noopener noreferrer">Click to view &rarr;</a>
         </article>
-      </div>
-    </section>
-
-    <section id="portfolio" aria-labelledby="portfolio-title">
-      <h2 class="section-title" id="portfolio-title">Project Portfolio</h2>
-      <div class="grid-3">
+    
         <article class="block-card project-card">
           <div>
             <span class="project-tag">Project Tag</span>
@@ -506,12 +491,7 @@
           </div>
           <a class="project-link" href="https://gemini.google.com/gem/1Z3v-5EIDXCRwLesXVcK87Dabhh5k9Aii?usp=sharing" rel="noopener noreferrer">Click to chat &rarr;</a>
         </article>
-      </div>
-    </section>
-
-     <section id="portfolio" aria-labelledby="portfolio-title">
-      <h2 class="section-title" id="portfolio-title">Project Portfolio</h2>
-      <div class="grid-3">
+        
         <article class="block-card project-card">
           <div>
             <span class="project-tag">Project Tag</span>
@@ -520,12 +500,7 @@
           </div>
           <a class="project-link" href="https://docs.google.com/document/d/17zm0xCDcHzgKhcC5M7VkXpraPDuLsycOuh8IJMchZeM/edit?usp=sharing" rel="noopener noreferrer">Click to view &rarr;</a>
         </article>
-      </div>
-    </section>
-
-     <section id="portfolio" aria-labelledby="portfolio-title">
-      <h2 class="section-title" id="portfolio-title">Project Portfolio</h2>
-      <div class="grid-3">
+        
         <article class="block-card project-card">
           <div>
             <span class="project-tag">Project Tag</span>
