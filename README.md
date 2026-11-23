@@ -444,7 +444,7 @@
 
     <div class="grid-3">
 
-    <article class="block-card project-card">
+    <article class="block-card">
       <div>
         <span class="project-tag">Game Development</span>
         <h3>Genome Tracker</h3>
@@ -458,7 +458,7 @@
       </a>
     </article>
 
-    <article class="block-card project-card">
+    <article class="block-card">
       <div>
         <span class="project-tag">Research</span>
         <h3>Proposal</h3>
@@ -472,7 +472,7 @@
       </a>
     </article>
 
-    <article class="block-card project-card">
+    <article class="block-card">
       <div>
         <span class="project-tag">Documentation</span>
         <h3>Safety Document</h3>
@@ -486,7 +486,7 @@
       </a>
     </article>
 
-    <article class="block-card project-card">
+    <article class="block-card">
       <div>
         <span class="project-tag">Design</span>
         <h3>Infographic</h3>
@@ -500,7 +500,7 @@
       </a>
     </article>
 
-    <article class="block-card project-card">
+    <article class="block-card">
       <div>
         <span class="project-tag">AI Tool</span>
         <h3>Nutrition Suggestion AI Chatbot</h3>
@@ -514,7 +514,7 @@
       </a>
     </article>
 
-    <article class="block-card project-card">
+    <article class="block-card">
       <div>
         <span class="project-tag">Research</span>
         <h3>Usability Study</h3>
@@ -528,7 +528,7 @@
       </a>
     </article>
 
-    <article class="block-card project-card">
+    <article class="block-card">
       <div>
         <span class="project-tag">Presentation</span>
         <h3>Usability Study Presentation</h3>
