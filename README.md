@@ -445,10 +445,24 @@
         <article class="block-card project-card">
           <div>
             <span class="project-tag">Project Tag</span>
-            <h3>Project name</h3>
-            <p>Description text </p>
+            <h3>Genome Tracker</h3>
+            <p>Players use alien DNA to hunt down and stop a doppelganger causing problems.</p>
           </div>
-          <a class="project-link" href="#" target="_blank" rel="noopener noreferrer">Link &rarr;</a>
+          <a class="project-link" href="https://audreyc888.itch.io/genome-tracker" target="_blank" rel="noopener noreferrer">Play on Itch.io &rarr;</a>
+        </article>
+      </div>
+     </section>
+    
+     <section id="portfolio" aria-labelledby="portfolio-title">
+      <h2 class="section-title" id="portfolio-title">Project Portfolio</h2>
+      <div class="grid-3">
+        <article class="block-card project-card">
+          <div>
+            <span class="project-tag">Project Tag</span>
+            <h3>Genome Tracker</h3>
+            <p>Players use alien DNA to hunt down and stop a doppelganger causing problems.</p>
+          </div>
+          <a class="project-link" href="https://audreyc888.itch.io/genome-tracker" target="_blank" rel="noopener noreferrer">Play on Itch.io &rarr;</a>
         </article>
       </div>
     </section>
