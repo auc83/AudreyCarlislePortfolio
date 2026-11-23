@@ -416,11 +416,10 @@
         <article class="block-card">
           <h3>B.S. in Digital Narrative &amp; Interactive Design</h3>
           <p>University of Pittsburgh, Freshman</p>
-          <p>enter text.</p>
         </article>
         <article class="block-card">
           <h3>Relevant Skills</h3>
-          <p>Enter Text</p>
+          <p>Game Design, Unity and Unreal Engine experience, HTML, C++, Digital Media Design</p>
         </article>
       </div>
     </section>
