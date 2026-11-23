@@ -531,8 +531,8 @@
     <article class="block-card">
       <div>
         <span class="project-tag">Presentation</span>
-        <h3>Usability Study Presentation</h3>
-        <p>Presentation slides for the usability study.</p>
+        <h3>Game Design Presentation</h3>
+        <p>Presentation slides for environmental storytelling.</p>
       </div>
       <a class="project-link"
          href="https://docs.google.com/presentation/d/1mn2b_JTvAgdxMO-sgVoc6pwu2YoAymWBRho6w4qBFn4/edit?usp=sharing"
