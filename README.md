@@ -459,10 +459,38 @@
         <article class="block-card project-card">
           <div>
             <span class="project-tag">Project Tag</span>
-            <h3>Genome Tracker</h3>
-            <p>Players use alien DNA to hunt down and stop a doppelganger causing problems.</p>
+            <h3>Proposal</h3>
+            <p>PROPOSAL</p>
           </div>
-          <a class="project-link" href="https://audreyc888.itch.io/genome-tracker" target="_blank" rel="noopener noreferrer">Play on Itch.io &rarr;</a>
+          <a class="project-link" href="https://docs.google.com/document/d/1HZ3C0tab9x26KsafDoMkFS1slAhxP22USk7Xtla_avk/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Click to view &rarr;</a>
+        </article>
+      </div>
+    </section>
+     
+     <section id="portfolio" aria-labelledby="portfolio-title">
+      <h2 class="section-title" id="portfolio-title">Project Portfolio</h2>
+      <div class="grid-3">
+        <article class="block-card project-card">
+          <div>
+            <span class="project-tag">Project Tag</span>
+            <h3>Safety Document</h3>
+            <p>SAFETY DOCUMENT</p>
+          </div>
+          <a class="project-link" href="file:///C:/Users/audre/Downloads/Safety%20Document-2.pdf" rel="noopener noreferrer">Click to view &rarr;</a>
+        </article>
+      </div>
+    </section>
+
+     <section id="portfolio" aria-labelledby="portfolio-title">
+      <h2 class="section-title" id="portfolio-title">Project Portfolio</h2>
+      <div class="grid-3">
+        <article class="block-card project-card">
+          <div>
+            <span class="project-tag">Project Tag</span>
+            <h3>Infographic</h3>
+            <p>INFOGRAPHIC</p>
+          </div>
+          <a class="project-link" href="file:///C:/Users/audre/Downloads/info%20Document-3.pdf" rel="noopener noreferrer">Click to view &rarr;</a>
         </article>
       </div>
     </section>
