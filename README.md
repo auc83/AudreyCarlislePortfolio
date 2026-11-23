@@ -440,9 +440,9 @@
     </section>
 
     <section id="portfolio" aria-labelledby="portfolio-title">
-  <h2 class="section-title" id="portfolio-title">Project Portfolio</h2>
+    <h2 class="section-title" id="portfolio-title">Project Portfolio</h2>
 
-  <div class="grid-3">
+    <div class="grid-3">
 
     <article class="block-card project-card">
       <div>
