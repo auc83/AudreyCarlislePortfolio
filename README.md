@@ -429,11 +429,11 @@
       <div class="grid-3">
         <article class="block-card">
           <h3>Tabletop RPG Player and Game Facilitator</h3>
-          <p>Enter Text</p>
+          <p>Design and run tabletop role-playing game sessions by creating stories, characters, quests, and game mechanics.</p>
         </article>
         <article class="block-card">
           <h3>"Indie Game Dev Club"</h3>
-          <p>Enter Text</p>
+          <p>Collaborate with fellow game developer students to discuss and design games.</p>
         </article>
       </div>
     </section>
